@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-right: -2rem;
+  max-width: 100%;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.col1 {
+    flex: 4 1;
+}
+
+.col2 {
+    flex: 5 1;
+}
+
+.col3 {
+    flex: 3 1;
+}
+
+.profilePicContainer {
+    float: right;
+	margin: 10px;
+}
+
+.profilepic {
+    
+}
+
+.aboutme_body {
+    text-indent: 2rem;
+}
+
+.skillContainer {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: left;
+}
+
+.skillContainer > * {
+    width: 100px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.container > div:not(:last-child) {
+  border-right: 1px solid var(--accent-color);
+  padding-right: 1rem;
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.certContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 1800px) {
+  .col3 {
+    flex: 2 1;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .col3 {
+    flex: 1 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: block;
+  }
+  
+  .container > div:not(:last-child) {
+    border-right: none;
+    margin-bottom: 2.5rem;
+  }
+  
+  .col3 {
+    flex: 1 1;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    display: block;
+  }
+}

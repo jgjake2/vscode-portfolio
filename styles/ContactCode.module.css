@@ -24,6 +24,19 @@
   color: var(--accent-color);
 }
 
+.guard::before {
+    content: attr(data-first-guard);
+}
+
+.guard::after {
+  content: attr(data-second-guard);
+}
+
+.reverse {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
 @media screen and (max-width: 600px) {
   .code {
     font-size: 0.85rem;

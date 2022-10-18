@@ -6,6 +6,8 @@
   height: 75vh;
   flex-direction: column;
   position: relative;
+  height: 100%;
+  width: 100%;
 }
 
 .background {
@@ -25,55 +27,19 @@
   align-items: center;
 }
 
+.content {
+    font-size: 16px;
+}
+
+.content > * {
+    white-space: nowrap;
+}
+
 .name {
   color: #eee;
   font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-}
-
-.bio {
-  width: max-content;
-  color: #eee;
-  font-size: 1.5rem;
-  font-weight: 300;
-  margin-bottom: 3rem;
-  position: relative;
-}
-
-.bio::before,
-.bio::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.bio::before {
-  background: var(--main-bg);
-  animation: typewriter 2.5s steps(24) 500ms forwards;
-}
-
-.bio::after {
-  margin-left: 0.4rem;
-  width: 0.125em;
-  background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
-    blink 750ms steps(24) infinite;
-}
-
-@keyframes typewriter {
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes blink {
-  to {
-    background: transparent;
-  }
 }
 
 .button {
@@ -104,22 +70,21 @@
 .illustration {
   height: 500px;
   width: 460px;
+  position: absolute;
+  right: -2rem;
 }
 
 /* 4K Screens */
 @media screen and (min-width: 2000px) {
   .background {
-    font-size: 8.5rem;
+    font-size: 6.5rem;
   }
   .content {
     padding: 0 3rem;
+    font-size: 16px;
   }
   .name {
     font-size: 6rem;
-  }
-  .bio {
-    font-size: 3rem;
-    margin-bottom: 5rem;
   }
   .button {
     font-size: 2rem;
@@ -130,6 +95,18 @@
   .illustration {
     height: 900px;
     width: 700px;
+    /*bottom: -50px;*/
+    right: -2rem;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .illustration {
+    position: absolute;
+    bottom: -100px;
+    right: -2rem;
+    height: calc(500px * 0.75);
+    width: calc(460px * 0.75);
   }
 }
 
@@ -137,6 +114,9 @@
 @media screen and (max-width: 1100px) {
   .background {
     display: none;
+  }
+  .content {
+    font-size: 12px;
   }
   .container {
     display: block;
@@ -149,16 +129,12 @@
   .name {
     font-size: 4rem;
   }
-  .bio {
-    font-size: 1.75rem;
-    margin: 0.75rem auto 3rem;
-  }
   .illustration {
     position: absolute;
-    bottom: -50px;
-    right: 0;
-    height: 700px;
-    width: 600px;
+    bottom: 2rem;
+    right: -2rem;
+    height: calc(500px * 0.75);
+    width: calc(460px * 0.75);
   }
 }
 
@@ -167,17 +143,15 @@
   .foreground {
     margin: 2rem 0;
   }
+  .content {
+    font-size: 10px;
+  }
   .name {
     font-size: 3rem;
     margin-bottom: 0.5rem;
   }
-  .bio {
-    font-size: 1.5rem;
-  }
   .illustration {
-    height: 550px;
-    width: 420px;
-    bottom: -50px;
+    display: none;
   }
 }
 
@@ -195,12 +169,11 @@
   .foreground {
     margin: 0;
   }
+  .content {
+    font-size: 6px;
+  }
   .name {
     font-size: 2rem;
-  }
-  .bio {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
   }
   .button {
     font-size: 1rem;
@@ -209,11 +182,6 @@
     font-size: 1rem;
   }
   .illustration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 75vw;
-    height: 50vh;
-    z-index: 1;
+    display: none;
   }
 }

@@ -1,0 +1,122 @@
+
+:root {
+  /* HTML5 */
+  --color-flame: #E34C26;
+  --color-deep-carrot-orange: #F06529;
+  
+  --color-filter-flame: invert(56%) sepia(77%) saturate(5686%) hue-rotate(347deg) brightness(92%) contrast(93%);
+  --color-filter-deep-carrot-orange: invert(43%) sepia(61%) saturate(1129%) hue-rotate(343deg) brightness(98%) contrast(93%);
+  
+  /* HTML5 Alt */
+  --color-flame2: #E44D26;
+  --color-halloween-orange: #F16529;
+  
+  --color-filter-flame2: invert(34%) sepia(89%) saturate(875%) hue-rotate(338deg) brightness(98%) contrast(102%);
+  --color-filter-halloween-orange: invert(64%) sepia(79%) saturate(4390%) hue-rotate(342deg) brightness(95%) contrast(98%);
+  
+  /* CSS# */
+  --color-picton-blue: #42a5f5;
+  
+  --color-filter-picton-blue: invert(50%) sepia(61%) saturate(771%) hue-rotate(176deg) brightness(106%) contrast(92%);
+  
+  /* Node.js */
+  --color-russian-green: #68a063;
+  --color-may-green: #3c873a;
+  
+  --color-filter-russian-green: invert(57%) sepia(25%) saturate(630%) hue-rotate(68deg) brightness(94%) contrast(90%);
+  --color-filter-may-green: invert(38%) sepia(78%) saturate(353%) hue-rotate(70deg) brightness(100%) contrast(94%);
+  
+  /* JS */
+  --color-ripe-mango: #ffca28;
+  
+  --color-filter-ripe-mango: invert(90%) sepia(37%) saturate(6569%) hue-rotate(332deg) brightness(102%) contrast(102%);
+  
+  /* PHP */
+  --color-cool-grey: #8993be;
+  --color-dark-gunmetal: #232531;
+  
+  --color-filter-cool-grey: invert(68%) sepia(32%) saturate(364%) hue-rotate(191deg) brightness(82%) contrast(84%);
+  --color-filter-dark-gunmetal: invert(12%) sepia(11%) saturate(1279%) hue-rotate(194deg) brightness(97%) contrast(92%);
+  
+  /* Python */
+  --color-dandelion: #f6db73;
+  --color-ripe-mango2: #fbcb24;
+  --color-rackley: #628aac;
+  
+  --color-filter-dandelion: invert(94%) sepia(28%) saturate(972%) hue-rotate(327deg) brightness(99%) contrast(95%);
+  --color-filter-ripe-mango2: invert(68%) sepia(97%) saturate(387%) hue-rotate(354deg) brightness(103%) contrast(101%);
+  --color-filter-rackley: invert(54%) sepia(35%) saturate(435%) hue-rotate(166deg) brightness(89%) contrast(90%);
+  
+  /* React */
+  --color-turquoise-surf: #00bcd4;
+  
+  --color-filter-turquoise-surf: invert(59%) sepia(84%) saturate(2194%) hue-rotate(144deg) brightness(93%) contrast(101%);
+  
+  
+  /* Bootstrap */
+  --color-cyber-grape: #563d7c;
+  
+  --color-filter-cyber-grape: invert(24%) sepia(13%) saturate(3168%) hue-rotate(223deg) brightness(95%) contrast(83%);
+  
+  
+  /* AWS */
+  --color-metallic-orange: #e47911;
+  
+  --color-filter-metallic-orange: invert(58%) sepia(37%) saturate(6816%) hue-rotate(6deg) brightness(102%) contrast(87%);
+  
+  /* Linux */
+  --color-outer-space: #444444;
+  --color-gray: #bcbcbc;
+  
+  --color-filter-outer-space: invert(25%) sepia(14%) saturate(0%) hue-rotate(244deg) brightness(84%) contrast(81%);
+  --color-filter-gray: invert(81%) sepia(0%) saturate(1%) hue-rotate(143deg) brightness(98%) contrast(82%);
+  
+  /* Kali */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  
+  --color-filter-black: invert(0%) sepia(3%) saturate(38%) hue-rotate(332deg) brightness(102%) contrast(100%);
+  --color-filter-white: invert(100%) sepia(0%) saturate(7490%) hue-rotate(175deg) brightness(101%) contrast(104%);
+  
+  
+  /* jQuery */
+  --color-honolulu-blue: #0769ad;
+  --color-sky-blue: #78cff5;
+  
+  --color-filter-honolulu-blue: invert(25%) sepia(54%) saturate(2291%) hue-rotate(184deg) brightness(103%) contrast(94%);
+  --color-filter-sky-blue: invert(73%) sepia(29%) saturate(624%) hue-rotate(158deg) brightness(98%) contrast(95%);
+  
+  /* Nginx */
+  --color-islamic-green: #009900;
+  
+  --color-filter-islamic-green: invert(34%) sepia(91%) saturate(1073%) hue-rotate(88deg) brightness(97%) contrast(107%);
+  
+  /* MySQL */
+  --color-sea-blue: #00758f;
+  --color-beer: #f29111;
+  
+  --color-filter-sea-blue: invert(26%) sepia(75%) saturate(2376%) hue-rotate(170deg) brightness(88%) contrast(101%);
+  --color-filter-beer: invert(75%) sepia(26%) saturate(7489%) hue-rotate(355deg) brightness(98%) contrast(93%);
+  
+  /* Access */
+  --color-sweet-brown: #a33639;
+  
+  --color-filter-sweet-brown: invert(24%) sepia(83%) saturate(1267%) hue-rotate(327deg) brightness(88%) contrast(87%);
+  
+  /* Lua */
+  --color-navy-blue: #00007D;
+  
+  --color-filter-navy-blue: invert(10%) sepia(63%) saturate(5073%) hue-rotate(240deg) brightness(82%) contrast(134%);
+  
+  /* Azure */
+  --color-azure: #007fff;
+  
+  --color-filter-azure: invert(38%) sepia(74%) saturate(4875%) hue-rotate(198deg) brightness(104%) contrast(103%);
+  
+  
+  /* Java */
+  --color-rackley2: #5382a1;
+  
+  --color-filter-rackley2: invert(54%) sepia(14%) saturate(1240%) hue-rotate(161deg) brightness(85%) contrast(87%);
+  
+}

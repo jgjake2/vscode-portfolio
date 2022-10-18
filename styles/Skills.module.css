@@ -1,0 +1,26 @@
+
+
+.icon-html5 {filter: var(--color-filter-flame2);}
+.icon-css3 {filter: var(--color-filter-picton-blue);}
+.icon-node {filter: var(--color-filter-russian-green);}
+.icon-js {filter: var(--color-filter-ripe-mango);}
+.icon-php {filter: var(--color-filter-cool-grey);}
+.icon-python {filter: var(--color-filter-dandelion);}
+.icon-react {filter: var(--color-filter-turquoise-surf);}
+.icon-bootstrap {filter: var(--color-filter-cyber-grape);}
+.icon-aws {filter: var(--color-filter-metallic-orange);}
+.icon-linux {filter: var(--color-filter-gray);}
+.icon-kali {filter: var(--color-filter-white);}
+.icon-jquery {filter: var(--color-filter-honolulu-blue);}
+.icon-nginx {filter: var(--color-filter-islamic-green);}
+.icon-mysql {filter: var(--color-filter-beer);}
+.icon-access {filter: var(--color-filter-sweet-brown);}
+.icon-apache {}
+.icon-lua {
+    /*filter: var(--color-filter-navy-blue);*//* Too Dark */
+    filter: var(--color-filter-rackley);
+}
+.icon-azure {filter: var(--color-filter-azure);}
+.icon-github {}
+.icon-nextjs {}
+.icon-java {filter: var(--color-filter-rackley2);}

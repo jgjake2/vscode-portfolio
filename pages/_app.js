@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
 import Head from "../components/Head";
 import "../styles/globals.css";
+import "../styles/globalColors.css";
 import "../styles/themes.css";
 
 function MyApp({ Component, pageProps }) {
@@ -17,7 +18,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <Head title={`Nitin Ranganath | ${pageProps.title}`} />
+      <Head title={`Eric Gardner | ${pageProps.title}`} />
       <Component {...pageProps} />
     </Layout>
   );

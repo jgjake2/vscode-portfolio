@@ -8,11 +8,22 @@
   box-sizing: border-box;
 }
 
+body {
+    background: var(--main-bg);
+}
+
 /* Tags */
 .react {
   border: 0.1rem solid rgb(97, 218, 251);
 }
 .react:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.ssh {
+  border: 0.1rem solid rgb(97, 218, 251);
+}
+.ssh:hover {
   background: rgba(97, 218, 251, 0.25);
 }
 
@@ -23,38 +34,38 @@
   background: rgba(131, 205, 41, 0.25);
 }
 
-.mongodb {
+.html {
   border: 0.1rem solid rgb(67, 153, 52);
 }
-.mongodb:hover {
+.html:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.redux {
+.javascript {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.redux:hover {
+.javascript:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 
-.razorpay {
+.python {
   border: 0.1rem solid rgb(82, 143, 240);
 }
-.razorpay:hover {
+.python:hover {
   background: rgba(82, 143, 240, 0.25);
 }
 
-.material-ui {
+.webextensions {
   border: 0.1rem solid rgb(25, 118, 210);
 }
-.material-ui:hover {
+.webextensions:hover {
   background: rgba(25, 118, 210, 0.25);
 }
 
-.bulma {
+.csharp {
   border: 0.1rem solid rgb(0, 209, 178);
 }
-.bulma:hover {
+.csharp:hover {
   background: rgb(0, 209, 178, 0.25);
 }
 
@@ -65,23 +76,30 @@
   background: rgba(0, 112, 243, 0.25);
 }
 
-.tailwind {
+.sftp {
+  border: 2px solid rgb(0, 112, 243);
+}
+.sftp:hover {
+  background: rgba(0, 112, 243, 0.25);
+}
+
+.xml {
   border: 2px solid rgb(6, 182, 212);
 }
-.tailwind:hover {
+.xml:hover {
   background: rgba(6, 182, 212, 0.25);
 }
 
-.react-query {
+.unity {
   border: 2px solid rgb(255, 65, 84);
 }
-.react-query:hover {
+.unity:hover {
   background: rgba(255, 65, 84, 0.25);
 }
 
-.css-modules {
+.css, .css-modules {
   border: 2px solid rgb(21, 114, 182);
 }
-.css-modules:hover {
+.css, .css-modules:hover {
   background: rgba(21, 114, 182, 0.25);
 }

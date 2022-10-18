@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "name": "Driwwwle",
-    "image": "https://imgur.com/kbGs6zH.png",
-    "description": "A platform for web developers to showcase their projects",
-    "tags": ["next", "node", "mongodb", "tailwind", "react-query"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "name": "jMod",
+    "image": "/jModSite-Full.png",
+    "description": "A powerful javascript library designed for Userscripts and WebExtensions",
+    "tags": ["node", "python", "javascript", "webextensions" ],
+    "source_code": "https://github.com/jgjake2/myUserJS-API",
+    "demo": "https://jmod.info/demo"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
-    "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "name": "Gyro HD 3 Editor",
+    "image": "/gyrohd3editor.png",
+    "imageStyle": {"background": "linear-gradient(90deg, rgba(28, 142, 125, 0.7) 50%, rgba(20, 161, 140, 0.7) 50%)", "padding": "0px"},
+    "description": "A graphical editor for an iPhone theme on jailbroken devices",
+    "tags": ["c#", "xml", "ssh", "sftp"],
+    "demo": "https://forums.modmy.com/general-jailbreak-discussion-f1173/837622-gyro-hd-3-editor.html"
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
+    "name": "Star Wars: Uprising",
+    "image": "/SWUP_Logo.webp",
+    "imageStyle": {"background": "linear-gradient(90deg, rgba(44, 31, 64, 0.9) 50%, rgba(53, 37, 77, 0.9) 50%)"},
+    "description": "Worked with Wikia and Star Wars to generate thousands of pages scraped from the game's code",
+    "tags": ["javascript", "css", "node", "unity"],
+    "view": "https://starwars.fandom.com/wiki/Wookieepedia:Star_Wars:_Uprising_Super_Walkthrough/Abilities"
   },
   {
     "id": 4,
-    "name": "VSCode Portfolio",
-    "image": "https://imgur.com/mKkz0iz.png",
-    "description": "A themeable and developer-centric portfolio based on the VSCode",
-    "tags": ["next", "css-modules"],
-    "source_code": "https://github.com/itsnitinr/vscode-portfolio",
-    "demo": "http://vscode-portfolio.vercel.app/"
+    "name": "Steam Profile Plugin",
+    "image": "/steam.jpg",
+    "imageStyle": {"background-color": "#202020"},
+    "description": "Wrote an interactive steam profile module for Wikia",
+    "tags": ["node", "javascript", "css", "html"]
   }
 ]

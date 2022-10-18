@@ -1,0 +1,134 @@
+
+main > div:hover .card::after {
+  opacity: 1;
+}
+
+.card {
+  position: relative;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card::before,
+.card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.06),
+    transparent 40%
+  );
+  z-index: 3;
+  pointer-events: none;
+}
+
+.card::after {  
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.4),
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+.card > .cardContent {
+  background-color: var(--article-bg);
+  border-radius: inherit;
+  display: block;
+  inset: 1px;
+  position: relative;
+  z-index: 2;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  padding: 1rem;
+}
+
+.container {
+    width:100%;
+    background: var(--article-bg);
+    border-radius: 20px;
+    position: relative;
+    flex: auto;
+	margin-bottom: 1rem;
+    padding-bottom: 2px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.icon {
+    display:inline-block;
+}
+
+.iconLink {
+	display: inline-block;
+	position: absolute;
+}
+
+.info {
+    display:inline-block;
+    margin-left: 140px;
+	position: relative;
+    min-height: 125px;
+}
+
+.cardLink {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+
+.cardLink:hover {
+  text-decoration: underline;
+}
+
+.body {
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .icon {
+    /*display: none !important;*/
+  }
+  
+  .iconLink {
+    display: block;
+	position: relative;
+	text-align: center;
+  }
+  
+  .info {
+    margin-left: 0px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    /*display: none !important;*/
+  }
+  
+  .iconLink {
+    display: block;
+	position: relative;
+    text-align: center;
+  }
+  
+  .info {
+    margin-left: 0px;
+    display: block;
+  }
+}

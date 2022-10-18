@@ -8,7 +8,8 @@ const explorerItems = [
   {
     name: 'home.jsx',
     path: '/',
-    icon: 'react_icon.svg',
+    icon: 'json_icon.svg',
+    //icon: 'react_icon.svg',
   },
   {
     name: 'about.html',
@@ -25,11 +26,13 @@ const explorerItems = [
     path: '/projects',
     icon: 'js_icon.svg',
   },
+/*
   {
     name: 'articles.json',
     path: '/articles',
     icon: 'json_icon.svg',
   },
+*/
   {
     name: 'github.md',
     path: '/github',
