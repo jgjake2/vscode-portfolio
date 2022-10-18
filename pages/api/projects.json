@@ -12,7 +12,7 @@
     "id": 2,
     "name": "Gyro HD 3 Editor",
     "image": "/gyrohd3editor.png",
-    "imageStyle": {"background": "linear-gradient(90deg, rgba(28, 142, 125, 0.7) 50%, rgba(20, 161, 140, 0.7) 50%)", "padding": "0px"},
+    "imageStyle": {"background": "linear-gradient(90deg, rgba(28, 142, 125, 0.7) 50%, rgba(20, 161, 140, 0.7) 50%)", "padding": "1rem"},
     "description": "A graphical editor for an iPhone theme on jailbroken devices",
     "tags": ["c#", "xml", "ssh", "sftp"],
     "demo": "https://forums.modmy.com/general-jailbreak-discussion-f1173/837622-gyro-hd-3-editor.html"

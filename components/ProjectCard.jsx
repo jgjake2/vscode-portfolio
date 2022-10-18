@@ -6,8 +6,8 @@ const ProjectCard = ({ project }) => {
   function onLoad(e){
       var gyroHDEditor = document.querySelector('img[src*="gyrohd3editor"]');
       if(gyroHDEditor){
-          gyroHDEditor.style.margin = '0px';
-          gyroHDEditor.style.padding = '0px';
+          //gyroHDEditor.style.margin = '0px';
+          gyroHDEditor.style.padding = '1rem';
       }
         
       var starWarsImage = document.querySelector('img[src*="SWUP_Logo"]');
