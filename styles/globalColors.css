@@ -67,9 +67,11 @@
   /* Linux */
   --color-outer-space: #444444;
   --color-gray: #bcbcbc;
+  --color-gray-dark: #999999;
   
   --color-filter-outer-space: invert(25%) sepia(14%) saturate(0%) hue-rotate(244deg) brightness(84%) contrast(81%);
   --color-filter-gray: invert(81%) sepia(0%) saturate(1%) hue-rotate(143deg) brightness(98%) contrast(82%);
+  --color-filter-gray-dark: invert(60%) sepia(49%) saturate(0%) hue-rotate(190deg) brightness(93%) contrast(87%);
   
   /* Kali */
   --color-black: #000000;
@@ -118,5 +120,16 @@
   --color-rackley2: #5382a1;
   
   --color-filter-rackley2: invert(54%) sepia(14%) saturate(1240%) hue-rotate(161deg) brightness(85%) contrast(87%);
+  
+  /* PDF */
+  --color-red-light: #ff1821;
+  --color-red: #ee161f;
+  --color-red-dark: #cc121c;
+  /*--color-red-dark: #db141e;*/
+  
+  --color-filter-red-light: invert(26%) sepia(97%) saturate(5536%) hue-rotate(348deg) brightness(104%) contrast(106%);
+  --color-filter-red: invert(18%) sepia(83%) saturate(6254%) hue-rotate(351deg) brightness(95%) contrast(97%);
+  --color-filter-red-dark: invert(9%) sepia(94%) saturate(6508%) hue-rotate(354deg) brightness(91%) contrast(90%);
+  /*--color-filter-red-dark: invert(17%) sepia(79%) saturate(7476%) hue-rotate(352deg) brightness(88%) contrast(94%);*/
   
 }

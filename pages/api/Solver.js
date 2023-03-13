@@ -1,5 +1,6 @@
 import Color from './Color.js';
 
+// Code taken from https://codepen.io/sosuke/pen/Pjoqqp
 class Solver {
   constructor(target, baseColor) {
     this.target = target;
@@ -8,11 +9,21 @@ class Solver {
   }
 
   solve() {
-    const result = this.solveNarrow(this.solveWide());
+    var result,
+        best,
+        c = 0;
+    
+    do {
+        result = this.solveNarrow(this.solveWide());
+        if(!best || result.loss < best.loss)
+            best = result;
+    } while(best.loss >= 1 && ++c < 50);
+    
+    
     return {
-      values: result.values,
-      loss: result.loss,
-      filter: this.css(result.values),
+      values: best.values,
+      loss: best.loss,
+      filter: this.css(best.values),
     };
   }
 

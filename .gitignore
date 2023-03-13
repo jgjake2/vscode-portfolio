@@ -32,5 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+/deploy.bat
 /deploy.sh
+/deploy-local.sh
 /.nvmrc
