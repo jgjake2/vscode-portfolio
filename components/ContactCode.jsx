@@ -24,7 +24,7 @@ const contactItems = [
   {
     social: 'resume',
     link: 'eric-resume.pdf',
-    href: 'https://drive.google.com/file/d/1KzDVgvqw7-uQJz_kEpe2wV8VxSigSFjd/view?usp=share_link',
+    href: 'https://drive.google.com/file/d/1T75927gHvL0Hk-BYg4USMSB7q2d2McxO/view?usp=sharing',
   },
   {
     social: 'phone',
