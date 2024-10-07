@@ -53,12 +53,21 @@ const AboutPage = () => {
         <h3 className={styles.heading}>Experience & Certifications</h3>
         <div className={styles.certContainer} onMouseMove={handleMouseMove}>
             <CertInfo options={{
-              title: "SMU Cybersecurity Teaching Assistant",
+              title: "SMS Infocomm – Lead Nvidia Enterprise Server Technician & Technical Instructor",
+              titleLink: "https://www.smsinfocomm.com/",
+              subtitle: "2023 - Present",
+              icon: "/nvidia-sms-logo-combined-color.png",
+              iconLink: "https://www.smsinfocomm.com/",
+              description: "Troubleshoot, repair and refurbish Nvidia DGX A100 & H100 SXM units. Train new technicians to work on these units over the course of a month.",
+              size: 125
+            }} />
+            <CertInfo options={{
+              title: "SMU Cybersecurity Assistant Instructor",
               titleLink: "https://techbootcamps.smu.edu/cybersecurity/",
-              subtitle: "2022 - Present",
+              subtitle: "November 2022 - December 2023",
               icon: "/SMU_logo.png",
               iconLink: "https://techbootcamps.smu.edu/cybersecurity/",
-              description: "Hired on as a teaching assistant for SMU's Cybersecurity course.",
+              description: "Hired on as an assistant instructor for SMU's Cybersecurity course.",
               size: 125
             }} />
             <CertInfo options={{

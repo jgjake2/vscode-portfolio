@@ -4,7 +4,7 @@ const contactItems = [
   {
     social: 'website',
     link: 'jgjake2.com',
-    href: 'https://jgjake2.com',
+    href: 'https://jgjake2.vercel.app',
   },
   {
     social: 'email',
@@ -24,7 +24,7 @@ const contactItems = [
   {
     social: 'resume',
     link: 'eric-resume.pdf',
-    href: 'https://drive.google.com/file/d/1T75927gHvL0Hk-BYg4USMSB7q2d2McxO/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/12zD-y_xcDF_q0mPyqdKSPD4PGL5X8Nzx/view?usp=sharing',
   },
   {
     social: 'phone',
